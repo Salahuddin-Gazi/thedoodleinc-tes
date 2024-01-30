@@ -1,0 +1,21 @@
+{
+  "name": "task_2",
+  "version": "1.0.0",
+  "description": "\"Task 2\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "front-end": "cd front-end && npm start",
+    "backend": "cd api && npm start",
+    "package-backend": "cd api && npm install",
+    "package-frontend": "cd front-end && npm install",
+    "package": "concurrently \"npm install\" \"npm run package-backend\" \"npm run package-frontend\"",
+    "start": "concurrently \"npm run backend\" \"npm run front-end\""
+  },
+  "author": "Gazi Salahuddin",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
