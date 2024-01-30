@@ -1,6 +1,7 @@
 ## Backend
 
 Used express js as the backend or as REST API framework with SQLite3 for the database.
+
 **Features**
 
 1.  CRUD operations for blogs, users and comments.
@@ -8,6 +9,7 @@ Used express js as the backend or as REST API framework with SQLite3 for the dat
 ## Front-End
 
 Used React JS and Parcel as the bundler.
+
 **Features**
 
 1.  Add and update blogs.
